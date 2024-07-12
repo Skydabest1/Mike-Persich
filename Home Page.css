@@ -67,6 +67,7 @@ padding-right: 24px;
     grid-column: span 12;
     padding-left: 24px;
 text-align: center;
+    line-height: 1.5;
   }  
 
 main {
