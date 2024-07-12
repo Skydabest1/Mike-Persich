@@ -1,0 +1,173 @@
+body {
+    background-image: url(basketball-seamless-pattern-vector-creative-background_104589-1292.avif);
+  }
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    padding: 0px;
+    background-color: #f0f0f0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+    overflow: hidden;
+    }
+
+  
+  @font-face {
+    font-family: 'Ubuntu';
+    src: url(ubuntu.ttf);
+  }
+  
+  header {
+    grid-column: span 12;
+    background-image: url(Header.png);
+    background-repeat: no-repeat;
+  }
+  
+  h1 {
+    grid-column-start: 2;
+    grid-column-end: 12;
+    text-align: center;
+    font-size: 96px;
+
+    text-decoration: none;
+  font-family: 'Ubuntu';
+  }
+  
+  h1:after{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 975px; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 5px solid black;
+  }
+
+  h2 {
+    font-family: 'Ubuntu';
+    text-align: center;
+    font-size: 60px;
+    display: block;
+    grid-column: span 12;
+    margin-top: 8px;
+    margin-bottom: 4px;
+  }
+  
+h3 {
+    font-size: 28px;
+    font-family: 'Ubuntu';
+    padding: 12px;
+}
+
+main p {
+    font-family: 'Ubuntu';
+    font-size: 18px;
+padding-right: 24px;
+    grid-column: span 12;
+    padding-left: 24px;
+text-align: center;
+  }  
+
+main {
+    grid-column: span 12;
+    text-align: center;
+}
+
+main img {
+    align-content: center;
+    grid-column: span 12;
+}
+
+p {
+    grid-column: span 12;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Ubuntu';
+} 
+
+#myCarousel {
+  max-width: 100%;
+  margin: 0 auto 50px;
+  max-width: 1150px;
+  }
+  
+  #myCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 24px;
+    background: #eee;
+  }
+  .f-carousel__slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  .f-carousel__slide img {
+    max-width: 100%;
+    max-height: 70vh; /* Adjust this value as needed */
+    object-fit: contain;
+  }
+
+.slide-description {
+  position: center;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Ubuntu';
+}
+
+footer a i {
+    float: right;
+    padding-right: 10px;
+    color: white;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    position: relative; bottom: 0px;
+  }
+  
+  footer {
+  grid-column: span 12;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+  width: 1200px;
+  text-align: center;
+  }
+
+  footer p {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+  footer a {
+  font-size: 30px;
+  font-family: 'Ubuntu';
+  display: block;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 24px;
+  }
+
+  footer p, footer a {
+    margin: 5px 0;
+    display: block;
+}
+
+  footer a:link{
+    color: black;
+    text-decoration: none;
+    }
+
+  footer a:hover {
+    color: rgb(234, 92, 10);
+    text-decoration: underline;
+    }
+  
+  footer a:visited {
+  color: black;
+  }
